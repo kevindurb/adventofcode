@@ -18,6 +18,6 @@ jobs:
         uses: dorny/test-reporter@v1
         if: success() || failure()
         with:
-          name: JEST Tests
+          name: Unit Tests
           path: ./junit.xml
           reporter: jest-junit
